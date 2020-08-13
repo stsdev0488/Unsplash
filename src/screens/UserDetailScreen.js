@@ -15,7 +15,8 @@ const styles = StyleSheet.create({
   },
   userInfoContainer: {
     alignItems: 'center',
-    marginVertical: scaleH(15),
+    marginTop: scaleH(30),
+    marginBottom: scaleH(15),
   },
   name: {
     fontSize: scaleH(20),
