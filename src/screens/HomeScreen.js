@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     margin: scaleW(10),
     borderColor: 'gray',
     borderRadius: scaleH(50),
-    paddingHorizontal: scaleW(10),
+    paddingHorizontal: scaleW(15),
     paddingVertical: scaleH(10),
     backgroundColor: Colors.white,
   },
