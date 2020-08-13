@@ -1,5 +1,12 @@
 import React, { useLayoutEffect, useState } from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import {
+  Image,
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import { FlatGrid } from 'react-native-super-grid';
 import ImageView from 'react-native-image-viewing';
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -15,7 +22,7 @@ const styles = StyleSheet.create({
   },
   userInfoContainer: {
     alignItems: 'center',
-    marginTop: scaleH(30),
+    marginTop: scaleH(Platform.OS === 'ios' ? 15 : 50),
     marginBottom: scaleH(15),
   },
   name: {
