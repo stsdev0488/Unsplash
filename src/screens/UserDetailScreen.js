@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   },
   userInfoContainer: {
     alignItems: 'center',
-    marginBottom: scaleH(15),
+    marginVertical: scaleH(15),
   },
   name: {
     fontSize: scaleH(20),
@@ -88,7 +88,7 @@ const UserDetailScreen = ({ navigation, route }) => {
       <FlatGrid
         contentContainerStyle={{ paddingVertical: scaleH(10) }}
         style={styles.photoGrid}
-        itemDimension={180}
+        itemDimension={scaleW(150)}
         ListEmptyComponent={<EmptyListComponent text="No photos" />}
         data={data.photos.map((item) => item.urls.thumb)}
         renderItem={renderImageItem}
