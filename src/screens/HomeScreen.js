@@ -18,10 +18,10 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     margin: scaleW(10),
-    height: scaleH(40),
     borderColor: 'gray',
     borderRadius: scaleH(20),
     paddingHorizontal: scaleW(10),
+    paddingVertical: scaleH(10),
     backgroundColor: Colors.white,
   },
   userList: {
