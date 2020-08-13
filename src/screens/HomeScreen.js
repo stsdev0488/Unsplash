@@ -67,6 +67,7 @@ const HomeScreen = ({ navigation }) => {
       <DismissKeyboard>
         <View style={{ flex: 1 }}>
           <DelayInput
+            delayTimeout={1000}
             minLength={1}
             value={filter}
             onChangeText={handleChangeFilter}
