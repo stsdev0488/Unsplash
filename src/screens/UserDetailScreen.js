@@ -77,6 +77,7 @@ const UserDetailScreen = ({ navigation, route }) => {
             name="keyboard-arrow-left"
             color={Colors.white}
             size={scaleH(35)}
+            style={{ marginLeft: scaleW(10) }}
           />
         </TouchableOpacity>
       ),
